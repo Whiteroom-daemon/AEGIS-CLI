@@ -17,7 +17,7 @@ AEGIS is an elite, command-line interface (CLI) security tool engineered to perf
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/Whiteroom-daemon/AEGIS-CLI.git https://github.com/Whiteroom-daemon/AEGIS-CLI.git
+   git clone https://github.com/Whiteroom-daemon/AEGIS-CLI.git
 2. **Navigate to the folder:**
    ```bash
    cd AEGIS-CLI
