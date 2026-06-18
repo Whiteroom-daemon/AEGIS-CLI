@@ -22,4 +22,25 @@ AEGIS is an elite, command-line interface (CLI) security tool engineered to perf
 2. **Navigate to the folder:**
    ```bash
    cd AEGIS-CLI
+   
+3. **Running AEGIS:**
+After navigating into the folder, run the tool using the following command:
+   ```bash
+   python aegis.py your_target_file.py
 
+4.**💻 Usage:**
+
+Run the scanner on any target file to start the security audit:
+
+* **Scan a single Python file:** 
+  `python aegis.py your_code.py`
+  (This runs the full analysis, identifying vulnerabilities and providing remediation steps.)
+
+* **Check the tool info and version:**
+  `python aegis.py --about`
+  (Use this to see developer information and tool capabilities.)
+
+* **Scan for quick vulnerability detection:**
+  `python aegis.py --fast target_file.py`
+  (Use this flag if you want a rapid, focused scan for critical bugs only.)
+  
